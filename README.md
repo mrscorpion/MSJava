@@ -1,6 +1,6 @@
 # MSJava - 手把手教女票玩转Java开发（Mac）
-### Instruction manual
-#### Java主要特性、发展历史、开发工具（略）  
+## Instruction manual
+Java主要特性、发展历史、开发工具（略）  
 
   
 ### Lesson00 简介
@@ -8,8 +8,8 @@
   * 1.下载java开发工具包JDK8，进入官网下载地址：http://www.oracle.com/technetwork/java/jdk8-downloads-2133151.html
   * 2.在 Java SE Development Kit 8u111 项中，选择同意 Accept License Agreement
   * 3.选择Mac OS X	227.39 MB  	jdk-8u111-macosx-x64.dmg 点击下载
-  * 4.双击打开.dmg 进行安装 （其中需要输入密码，获取管理员权限，输入本账号登录密码即可）
-##### 备注：如不安装JDK，编译时将报错 “您需要安装jdk才能使用java命令行工具”。
+  * 4.双击打开.dmg 进行安装 （其中需要输入密码，获取管理员权限，输入本账号登录密码即可）  
+  备注：如不安装JDK，编译时将报错 “您需要安装jdk才能使用java命令行工具”。
   
 #### 简单使用
   使用 Command Line Tools 执行指令：

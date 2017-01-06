@@ -8,6 +8,20 @@
  
  Java常量（在程序运行时，不会被修改的量）
     - 在 Java 中使用 final 关键字来修饰常量，在 Objective-C 中使用 const 关键字来修饰常量。
+ 
+ Java数据类型转换
+    - 整型、实型（常量）、字符型数据可以混合运算。运算中，不同类型的数据先转化为同一类型，然后进行运算。
+    - 转换从低级到高级 (byte,short,char —> int —> long—> float —> double)
+    - 规则:
+        1. 不能对boolean类型进行类型转换。
+        2. 不能把对象类型转换成不相关类的对象。
+        3. 在把容量大的类型转换为容量小的类型时必须使用强制类型转换。
+        4. 转换过程中可能导致溢出或损失精度，例如：
+            int i = 128;
+            byte b = (byte)i;
+            因为byte类型时8位，最大值为127，所以当强制转换为int类型值128时候就会导致溢出。
+        5. 浮点数到整数的转换是通过舍弃小数得到，而不是四舍五入，例如：
+            (int)99.9 == 99;
  */
 
 public class PrimitiveType {
@@ -75,6 +89,12 @@ public class PrimitiveType {
          - 字符串常量和字符常量都可以包含任何Unicode字符。
          */
         System.out.println("mr\n" + "\"This is in quotes\"" + "\u0001");
+        
+        
+        /******** 强制类型转换  ********/
+        int i1 = 123;
+        byte b = (byte)i1;
+        System.out.println("\n\nint 强制类型转换为 byte 后的值等于" + b);
     }
 }
 

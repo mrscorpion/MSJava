@@ -1,7 +1,8 @@
 # MSJava - 手把手教女票玩转Java开发（Mac）
-## Instruction manual
-Java历史（略）
-
+### Instruction manual
+Java主要特性、发展历史、开发工具（略）  
+  
+  
 ### Lesson00 简介
 #### MAC 下 Java 开发环境配置
   * 1.下载java开发工具包JDK8，进入官网下载地址：http://www.oracle.com/technetwork/java/jdk8-downloads-2133151.html
@@ -17,7 +18,8 @@ Java历史（略）
   * $ java Mac        // 输出打印信息 Hello Java!
   
 ...
-
+  
+  
 ### Lesson01 初识
 ### Lesson02 类和对象
 ### Lesson03 Import语句

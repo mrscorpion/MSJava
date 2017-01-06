@@ -13,9 +13,9 @@ Java主要特性、发展历史、开发工具（略）  
   
 #### 简单使用
     使用 Command Line Tools 执行指令：
-  * vim Mac.java      // 或者  （ touch Mac.java  +  open Mac.java） 编写第一个java程序   
-  * $ javac Mac.java  // 用于将 java 源文件编译为 class 字节码文件  (执行完即可看到文件目录下新增 Mac.class文件) 
-  * $ java Mac        // 输出打印信息 Hello Java!
+  * vim Mac.java    // 或者  （ touch Mac.java  +  open Mac.java） 编写第一个java程序   
+  * javac Mac.java  // 用于将 java 源文件编译为 class 字节码文件  (执行完即可看到文件目录下新增 Mac.class文件) 
+  * java Mac        // 输出打印信息 Hello Java!
   
 ...
   
